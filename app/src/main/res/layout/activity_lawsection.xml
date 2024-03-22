@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logoutbtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LawSection"
+    android:background="@drawable/law_2">
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#E62E2211"
+      android:paddingLeft="23dp"
+      android:text="Violents and Crimes Section"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="25dp" />
+
+  <ListView
+      android:id="@+id/listview"
+      android:layout_width="match_parent"
+      android:layout_height="502dp"
+      android:layout_below="@id/textView4"
+      android:layout_marginTop="0dp"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="0dp"
+      tools:layout_editor_absoluteY="2dp" />
+
+  <Button
+      android:id="@+id/helpBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/listview"
+      android:layout_centerInParent="true"
+      android:layout_marginTop="64dp"
+      android:layout_marginRight="20dp"
+      android:layout_toLeftOf="@id/logoutBtn"
+      android:text="HELP" />
+
+  <Button
+      android:id="@+id/gpsBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_below="@id/listview"
+      android:layout_centerInParent="true"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="64dp"
+      android:layout_toRightOf="@id/logoutBtn"
+      android:text="GPS TRACK" />
+
+  <Button
+      android:id="@+id/logoutBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/listview"
+      android:layout_centerInParent="true"
+      android:layout_marginTop="64dp"
+      android:text="LOG OUT" />
+
+</RelativeLayout>

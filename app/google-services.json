@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "5686483513",
+    "project_id": "JusticeForAll-f3c27",
+    "storage_bucket": "JusticeForAll-f3c27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5686483513:android:39e37de101c95f1b618be8",
+        "android_client_info": {
+          "package_name": "com.example.JusticeForAll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5686483513-fjhknltjviqdmhkaiblp397fenc0h5f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCstV2x8gSFTIdRNORFTeBIY4SQWFdIU5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5686483513-fjhknltjviqdmhkaiblp397fenc0h5f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
